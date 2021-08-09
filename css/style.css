@@ -1,0 +1,180 @@
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 6rem;
+}
+
+.nav-link{
+    color: #6c757d;
+}
+
+.nav-link:hover{
+    color: #000000;
+}
+
+a,p,span, h1, h2, h3, h4, h5, h6{
+    font-family: "Economica", sans-serif;
+}
+
+.contact h2{
+    color: #199f82;
+}
+
+.contact input{
+    border-color: #199f82;
+    background-color: #c8ead5;
+    font-size: 19px;
+    color: #199f82;
+}
+
+.contact input::placeholder{
+    color: #199f82;
+}
+
+.contact input:focus{
+    border-color: #199f82;
+    background-color: #c8ead5;
+    color: #199f82;
+}
+
+.contact input:checked{
+    border-color: #199f82;
+    background-color: #199f82;
+}
+
+.contact select{
+    border-color: #199f82;
+    background-color: #c8ead5;
+    font-size: 19px;
+    color: #199f82;
+}
+
+.contact .form-check-input{
+    margin-left: -1em;
+    margin-right: 0.2em;
+}
+
+.contact textarea{
+    border-radius: 22px;
+    border-color: #199f82;
+    background-color: #c8ead5;
+    color: #199f82;
+    font-size: 19px;
+}
+
+.contact textarea::placeholder{
+    color: #199f82;
+}
+
+.contact textarea:focus{
+    border-color: #199f82;
+    background-color: #c8ead5;
+    color: #199f82;
+}
+
+.contact p{
+    font-size: 18px;
+    color: #369f98;
+}
+
+.contact .form-check, label{
+    font-size: 13px;
+    text-align: start;
+    color: #369f98;
+}
+
+.contact button{
+    background-color: #199f82;
+    font-size: 21px;
+}
+
+.contact .icon{
+    background-color: #199f82;
+}
+
+.contact i{
+    width: 1em;
+    height: 1em;
+    color: #fff;
+    font-size: 32px;
+}
+
+.profile{
+    background-color: #F8F8F8;
+    position: relative;
+    text-align: center;
+}
+
+.description{
+    background-color: #FFF;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+    padding: 6em 9.5em;
+    margin-left: 5em;
+}
+
+@media screen and (max-width: 1200px){
+    .description{
+        padding: 2em 7em;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .description{
+        padding: 3em 3em;
+        margin-left: 0;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -120%);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .description p{
+        font-size: 16px!important;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .description{
+        padding: 1em 2em;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -105%);
+    }
+
+    .description p{
+        font-size: 14px!important;
+    }
+}
+
+.servicios.container{
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.servicios i{
+    font-size: 6em;
+}
+
+.servicios h6{
+    color: #369f98;
+}
+
+.servicios p{
+    color: #666;
+}
+
+.btn.back-to-top{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 3;
+    visibility: hidden;
+    opacity: 0;
+    transition:visibility 0.3s linear,opacity 0.3s linear;
+}
