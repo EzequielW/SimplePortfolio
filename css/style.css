@@ -18,36 +18,36 @@ a,p,span, h1, h2, h3, h4, h5, h6{
 }
 
 .contact h2{
-    color: #199f82;
+    color: #0d6efd;
 }
 
 .contact input{
-    border-color: #199f82;
-    background-color: #c8ead5;
+    border-color: #0d6efd;
+    background-color: #bad5fd;
     font-size: 19px;
-    color: #199f82;
+    color: #0d6efd;
 }
 
 .contact input::placeholder{
-    color: #199f82;
+    color: #0d6efd;
 }
 
 .contact input:focus{
-    border-color: #199f82;
-    background-color: #c8ead5;
-    color: #199f82;
+    border-color: #0d6efd;
+    background-color: #bad5fd;
+    color: #0d6efd;
 }
 
 .contact input:checked{
-    border-color: #199f82;
-    background-color: #199f82;
+    border-color: #0d6efd;
+    background-color: #0d6efd;
 }
 
 .contact select{
-    border-color: #199f82;
-    background-color: #c8ead5;
+    border-color: #0d6efd;
+    background-color: #bad5fd;
     font-size: 19px;
-    color: #199f82;
+    color: #0d6efd;
 }
 
 .contact .form-check-input{
@@ -57,40 +57,40 @@ a,p,span, h1, h2, h3, h4, h5, h6{
 
 .contact textarea{
     border-radius: 22px;
-    border-color: #199f82;
-    background-color: #c8ead5;
-    color: #199f82;
+    border-color: #0d6efd;
+    background-color: #bad5fd;
+    color: #0d6efd;
     font-size: 19px;
 }
 
 .contact textarea::placeholder{
-    color: #199f82;
+    color: #0d6efd;
 }
 
 .contact textarea:focus{
-    border-color: #199f82;
-    background-color: #c8ead5;
-    color: #199f82;
+    border-color: #0d6efd;
+    background-color: #bad5fd;
+    color: #0d6efd;
 }
 
 .contact p{
     font-size: 18px;
-    color: #369f98;
+    color: #0e56c2;
 }
 
 .contact .form-check, label{
     font-size: 13px;
     text-align: start;
-    color: #369f98;
+    color: #0e56c2;
 }
 
 .contact button{
-    background-color: #199f82;
+    background-color: #0d6efd;
     font-size: 21px;
 }
 
 .contact .icon{
-    background-color: #199f82;
+    background-color: #0d6efd;
 }
 
 .contact i{
@@ -150,10 +150,6 @@ a,p,span, h1, h2, h3, h4, h5, h6{
         left: 50%;
         transform: translate(-50%, -110%);
     }
-
-    .description p{
-        font-size: 11px!important;
-    }
 }
 
 .servicios.container{
@@ -166,7 +162,7 @@ a,p,span, h1, h2, h3, h4, h5, h6{
 }
 
 .servicios h6{
-    color: #369f98;
+    color: #0e56c2;
 }
 
 .servicios p{
