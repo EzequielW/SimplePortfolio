@@ -117,6 +117,10 @@ a,p,span, h1, h2, h3, h4, h5, h6{
     margin-left: 5em;
 }
 
+.description p{
+    font-weight: 599;
+}
+
 @media screen and (max-width: 1200px){
     .description{
         padding: 2em 7em;
@@ -141,14 +145,14 @@ a,p,span, h1, h2, h3, h4, h5, h6{
 
 @media screen and (max-width: 576px){
     .description{
-        padding: 1em 2em;
+        padding: 1em 1em;
         top: 100%;
         left: 50%;
-        transform: translate(-50%, -105%);
+        transform: translate(-50%, -110%);
     }
 
     .description p{
-        font-size: 14px!important;
+        font-size: 11px!important;
     }
 }
 
